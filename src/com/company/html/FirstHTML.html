@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script type="text/javascript">
+
+</script>
+
+<style type="text/css">
+    option,select {
+     color: red;
+    }
+
+    input[type="submit"]
+    {
+        width: 120px;
+        margin-left: 35px;
+        display: block;
+        font-family: Verdana, Arial;
+    }
+    p
+    {
+        font-size: x-large;
+        border: 5px dotted #090;
+    }
+
+    ul
+    {
+        font-size: 19pt;
+    }
+    #footer
+    {
+        background-color: #CCC;
+        text-align: center;
+        float: none;
+       margin-top: 20px;
+    }
+
+    div
+    {
+        width: 200px;
+        height: 200px;
+        border: solid 2px blue;
+        margin: 4px;
+        float: left;
+    }
+    .green
+    {
+        background-color: #009900;
+    }
+    .red
+    {
+        background-color: aqua;
+    }
+
+   .firstclass
+    {
+        background-color: #CCC;
+        font-size: 10pt;
+    }
+
+    abbr[title]
+    {
+        border-bottom: 1px dotted #999;
+
+    }
+    abbr[title]:hover
+    {
+        cursor: help;
+    }
+</style>
+
+<body>
+
+<ul id="nav">
+    <li></li>
+
+
+</ul>
+
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <table width="500" border="0">
+   <tr>
+       <td colspan="2">嘻唰唰登录系统<hr/></td>
+   </tr>
+        <tr>
+            <td align="right">姓名 : </td>
+            <td width="405">
+                <label for="lnname"></label>
+                <input name="lnname" type="text" id="lnname" size="20" maxlength="100"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">性别 : </td>
+            <td >
+                男
+                <input name="Sex" type="radio" value="Male" checked="checked"/>
+                女
+                <input name="Sex" type="radio" value="Female"/>
+                <br/>
+            </td>
+        </tr>
+
+      <tr>
+          <td align="right" nowrap="nowrap">初始密码 : </td>
+          <td>
+              <label for="idsalary2"></label>
+           <input name="idsalary2" type="password" id="idsalary2" size="10" maxlength="20" />
+          </td>
+      </tr>
+
+        <tr>
+            <td align="right">要求工资 : </td>
+            <td>
+                <label for="idsalary"></label>
+                <input name="idsalary" id="idsalary" type="text" size="10" maxlength="20"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="right">上传照片 : </td>
+            <td>
+                <label for="idfile"></label>
+                <input type="file" name="idfile" id="idfile"/>
+                <input type="image" name="idpic" id="idpic" src="D:\psb.jpg"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="right">个人描述 : </td>
+            <td>
+                <label for="idmemo"></label>
+                <textarea name="idmemo" id="idmemo" cols="50" rows="5"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="submit" name="btnsubmit" id="btnsubmit" value="提交"/>
+                <input type="reset" name="btnreset" id="btnreset" value="重置"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="hidden" name="idNumber" id="idNumber">
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+<br/>
+
+
+<select name="lst" id="lst">
+    <option value="1" selected="selected">程序员</option>
+    <option value="2">中级程序员</option>
+    <option value="3">高级程序员</option>
+    <option value="4">分析员</option>
+    <option value="5">中级分析员</option>
+    <option value="6">高级分析员</option>
+    <option value="7">分析师</option>
+</select>
+<br/>
+<p>我一定要成功</p>
+
+<br/>
+<ul>
+    <li class="firstclass">list-style 简要属性1</li>
+    <li><abbr title="Oh London Bridge">CSS</abbr></li>
+    <li>list-style 简要属性3</li>
+    <li>list-style 简要属性4</li>
+    <li>list-style 简要属性5</li>
+</ul>
+</body>
+<br/>
+<div id="footer">版权归原作者所有</div>
+
+
+<div class="red"></div>
+<div class="green"></div>
+
+</div>
+</html>
